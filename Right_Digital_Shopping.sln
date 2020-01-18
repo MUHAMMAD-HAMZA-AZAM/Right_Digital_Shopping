@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDB-Website", "RDB-Website\RDB-Website.csproj", "{9A5079C4-DF5C-469A-BC62-6284441D6928}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDS-Website", "RDB-Website\RDS-Website.csproj", "{9A5079C4-DF5C-469A-BC62-6284441D6928}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDS.Entities", "RDS_Entities\RDS.Entities.csproj", "{C679D31A-BF64-44DD-A879-0FA8DC21ED53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDS.Database", "DRS_Database\RDS.Database.csproj", "{832AFCB7-EF5A-4660-A6EC-D263FE628940}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{9A5079C4-DF5C-469A-BC62-6284441D6928}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A5079C4-DF5C-469A-BC62-6284441D6928}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A5079C4-DF5C-469A-BC62-6284441D6928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C679D31A-BF64-44DD-A879-0FA8DC21ED53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C679D31A-BF64-44DD-A879-0FA8DC21ED53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C679D31A-BF64-44DD-A879-0FA8DC21ED53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C679D31A-BF64-44DD-A879-0FA8DC21ED53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832AFCB7-EF5A-4660-A6EC-D263FE628940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832AFCB7-EF5A-4660-A6EC-D263FE628940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832AFCB7-EF5A-4660-A6EC-D263FE628940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832AFCB7-EF5A-4660-A6EC-D263FE628940}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
