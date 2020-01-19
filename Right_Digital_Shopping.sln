@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDS.Entities", "RDS_Entitie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDS.Database", "DRS_Database\RDS.Database.csproj", "{832AFCB7-EF5A-4660-A6EC-D263FE628940}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDS_Services", "RDS_Services\RDS_Services.csproj", "{F440FFCA-25BA-40FD-AB3C-742532EBA4C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{832AFCB7-EF5A-4660-A6EC-D263FE628940}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{832AFCB7-EF5A-4660-A6EC-D263FE628940}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{832AFCB7-EF5A-4660-A6EC-D263FE628940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F440FFCA-25BA-40FD-AB3C-742532EBA4C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F440FFCA-25BA-40FD-AB3C-742532EBA4C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F440FFCA-25BA-40FD-AB3C-742532EBA4C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F440FFCA-25BA-40FD-AB3C-742532EBA4C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
