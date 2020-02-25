@@ -8,7 +8,7 @@ namespace RDS_Entities
 {
    public class Category: ParentEntities
     {
-        
+        public string ImageURLPath { get; set; }
         public List<Product> Products { get; set; }
     }
 }
